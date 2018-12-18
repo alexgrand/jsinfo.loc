@@ -1,3 +1,11 @@
+/* eslint-disable no-alert */
+/* eslint-disable no-console */
+/* eslint-disable no-continue */
+/* eslint-disable no-labels */
+/* eslint-disable no-shadow */
+/* eslint-disable no-restricted-syntax */
+/* eslint-disable no-undef */
+/* eslint-disable no-plusplus */
 // Output even numbers in the loop 2 to 10
 for (let i = 0; i <= 10; i++) {
   if (!(i % 2)) console.log(i);
@@ -18,9 +26,9 @@ do {
 // output prime numbers
 const n = 10;
 nextPrime:
-for (let y = 2; i <= n; i++) { // for each i...
+for (let i = 2; i <= n; i++) { // for each i...
   for (let j = 2; j < i; j++) { // look for a divisor..
-    if (i % j == 0) continue nextPrime; // not a prime, go next i
+    if (i % j === 0) continue nextPrime; // not a prime, go next i
   }
 
   alert(i); // a prime
