@@ -1,5 +1,7 @@
 // eslint-disable-next-line no-unused-vars
-const pow = function pow(x, n) {
+const powSpec = {};
+
+powSpec.pow = function pow(x, n) {
   if (n < 0) return NaN;
   if (Math.round(n) !== n) return NaN;
 
@@ -14,3 +16,4 @@ const pow = function pow(x, n) {
 
   return x ** n;
 };
+module.exports = powSpec;
