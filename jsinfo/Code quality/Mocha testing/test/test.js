@@ -10,3 +10,11 @@ describe('Array', () => {
     });
   });
 });
+describe('Math', () => {
+  it('should test if 3 * 3 = 9', () => {
+    assert.equal(9, 3 * 3);
+  });
+  it ('shoud test of (3 - 4) * 8 = -8', () => {
+    assert.equal(-8, (3 - 4) * 8);
+  });
+});
