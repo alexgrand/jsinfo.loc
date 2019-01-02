@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-unused-vars
 const powSpec = {};
 
 powSpec.pow = function pow(x, n) {
